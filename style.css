@@ -1,0 +1,57 @@
+.fondo {
+background-color: rgb(42, 128, 230);
+position: absolute;
+margin-left: 0px;
+margin-right:0px;
+}
+
+.suelo {
+background-color: rgb(133, 74, 25);
+position: absolute;
+margin-top:600px;
+width: 1849px;
+height:350px;
+}
+
+
+
+.postev {
+background-color: rgb(111, 112, 112);
+position: absolute;
+width: 40px;
+height: 450px;
+margin-top: 350px;
+margin-left: 175px;
+border-radius: 15px;
+}
+
+.posted {
+background-color: rgb(111, 112, 112);
+position: absolute;
+width: 40px;
+height: 170px;
+border-radius: 15px;
+margin-top: 238px;
+margin-left: 228px;
+transform: rotateZ(50deg);
+}
+
+.tablero {
+background-color: rgb(111, 114, 115);
+position: absolute;
+width: 18px;
+height: 225px;
+border-radius: 25px;
+margin-left: 295px;
+margin-top: 170px;
+}
+
+.aro {
+background-color: rgb(244, 129, 23);
+position: absolute;
+border-radius: 25px;
+width: 125px;
+height: 20px;
+margin-left: 315px;
+margin-top: 170px;
+}
