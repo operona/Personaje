@@ -13,7 +13,9 @@ width: 1849px;
 height:350px;
 }
 
-
+.canasta{
+  position: absolute;
+}
 
 .postev {
 background-color: rgb(111, 112, 112);
@@ -50,8 +52,78 @@ margin-top: 170px;
 background-color: rgb(244, 129, 23);
 position: absolute;
 border-radius: 25px;
-width: 125px;
+width: 115px;
 height: 20px;
-margin-left: 315px;
-margin-top: 170px;
+margin-left: 320px;
+margin-top: 270px;
+}
+
+.soporte_aro {
+background-color: rgb(205, 121, 22);
+position: absolute;
+width: 20px;
+height: 50px;
+margin-left: 310PX;
+margin-top: 270PX;
+}
+
+.red {
+background-color: rgba(153, 153, 153, 0.56);
+position: absolute;
+width: 90px;
+height: 90px;
+margin-left: 335px;
+margin-top: 290px;
+}
+
+.Jugador{
+position: absolute;
+margin-left: 1000px;
+margin-top: 700px;
+}
+.pie1 {
+background-color: rgb(124, 17, 17);
+position: relative;
+width: 50px;
+height: 25px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius:5px;
+border-top-left-radius: 18px;
+}
+
+.calcetin {
+position: relative;
+background-color: rgb(18, 18, 18);
+width: 20px;
+height: 38px;
+left: 30px;
+bottom:58px;
+border-bottom-left-radius:8px;
+border-bottom-right-radius:8px;
+}
+
+.logo {
+position: relative;
+background-color: rgb(255, 255, 255);
+width: 8px;
+height: 5px;
+left: 6px;
+top: 4px;
+}
+.pierna1 {
+position: relative;
+background-color: rgb(176, 128, 55);
+width: 18px;
+height: 60px;
+left: 31px;
+bottom: 33px;
+}
+
+.pantaloniz {
+position: relative;
+background-color: rgb(17, 16, 15);
+width: 40px;
+height: 70px;
+left: 18px;
+bottom: 220px;
 }
