@@ -1,16 +1,23 @@
 .fondo {
 background-color: rgb(42, 128, 230);
 position: absolute;
-margin-left: 0px;
-margin-right:0px;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+
+
 }
+
+
 
 .suelo {
 background-color: rgb(133, 74, 25);
 position: absolute;
-margin-top:600px;
-width: 1849px;
-height:350px;
+top:600px;
+height: 368px;
+width: 1848px;
 }
 
 .canasta{
@@ -77,10 +84,30 @@ margin-top: 290px;
 }
 
 .Jugador{
-position: absolute;
-margin-left: 1000px;
-margin-top: 700px;
+  position: relative;
+  top: 400px;
+  left: 120px;
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
 }
+
+
+
+.pierna {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 0;
+}
+
+.pizquierda { left: 2em;}
+.pderecha { right: 2em;
+}
+
 .pie1 {
 background-color: rgb(124, 17, 17);
 position: relative;
@@ -110,7 +137,7 @@ height: 5px;
 left: 6px;
 top: 4px;
 }
-.pierna1 {
+.muslo {
 position: relative;
 background-color: rgb(176, 128, 55);
 width: 18px;
@@ -119,11 +146,28 @@ left: 31px;
 bottom: 33px;
 }
 
-.pantaloniz {
+.pantalon {
 position: relative;
 background-color: rgb(17, 16, 15);
 width: 40px;
 height: 70px;
 left: 18px;
 bottom: 220px;
+}
+
+.cuerpo {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 0;
+}
+
+.camiseta {
+position: relative;
+background-color: rgb(17, 16, 15);
+height: 130px;
+width: 80px;
 }
