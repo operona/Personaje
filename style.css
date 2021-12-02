@@ -132,6 +132,7 @@ border-bottom-right-radius:8px;
 .logo {
 position: relative;
 background-color: rgb(255, 255, 255);
+border-radius: 9px;
 width: 8px;
 height: 5px;
 left: 6px;
@@ -149,10 +150,21 @@ bottom: 33px;
 .pantalon {
 position: relative;
 background-color: rgb(17, 16, 15);
+border-top-right-radius: 6px;
+border-top-left-radius: 6px;
 width: 40px;
 height: 70px;
 left: 18px;
 bottom: 220px;
+}
+
+.cintapant {
+position: relative;
+background-color: rgb(124, 17, 17);
+width: 40px;
+height: 15px;
+border-top-right-radius: 6px;
+border-top-left-radius: 6px;
 }
 
 .cuerpo {
@@ -170,4 +182,35 @@ position: relative;
 background-color: rgb(17, 16, 15);
 height: 130px;
 width: 80px;
+bottom: 175px;
+left: 23px;
+border-radius: 6px;
+border-top-right-radius: 15px;
+border-top-left-radius: 15px;
+}
+
+.pecho {
+position: relative;
+background-color: rgb(176, 128, 55);
+height: 27px;
+width: 35px;
+bottom: 305px;
+left: 45px;
+border-bottom-left-radius: 50%;
+border-bottom-right-radius: 50%;
+border-top-right-radius: 6px;
+border-top-left-radius: 6px;
+}
+
+.texto-camiseta {
+position: relative;
+font-size: 30px;
+color: white;
+left: 20px;
+bottom: -40px;
+font-family: serif;
+font-weight: bolder;
+color: rgb(124, 17, 17);
+-webkit-text-stroke: 2px white;
+font-weight: bolder;
 }
