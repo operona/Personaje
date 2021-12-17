@@ -17,7 +17,7 @@ background-color: rgb(133, 74, 25);
 position: absolute;
 top:600px;
 height: 368px;
-width: 1848px;
+width: 100%;
 z-index: -3;
 }
 
@@ -220,7 +220,7 @@ font-weight: bolder;
 position: absolute;
 transform: scale(0.18);
 top: -445px;
-left: -115px;
+left: -112px;
 top: -428px;
 }
 
@@ -377,4 +377,63 @@ width: 23px;
 height: 25px;
 left: 51px;
 top: -350px;
+}
+
+.brazo_iz {
+  position: absolute;
+  background-color: rgb(176, 128, 55);
+  height: 18px;
+  width: 83px;
+  border-radius: 6px;
+  top: -170px;
+
+  transform: rotateZ(20deg);
+  z-index: -3;
+  animation: brazos 1.5s linear 0s 1 forwards;
+  /* animation: brazos 1.5s linear 0s infinite alternate; */
+}
+
+.brazo_dr{
+  position: absolute;
+  background-color: rgb(176, 128, 55);
+  height: 18px;
+  width: 105px;
+  border-radius: 6px;
+  top: -170px;
+
+  transform: rotateZ(15deg);
+  animation: brazos 1.5s linear 0s 1 forwards;
+  /* animation: brazos 1.5s linear 0s infinite alternate; */
+}
+
+.pelota{
+  position: absolute;
+  background-color: rgb(186, 90, 20);
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  top: -225px;
+  left: -50px;
+  /* left: 885px;
+  top:-25px; */
+  animation: tiro 6s linear 1.5s 1 forwards;
+
+
+}
+
+.conjunto {
+  animation: brazos 1.5s linear 0s 1 forwards;
+
+}
+
+@keyframes brazos {
+  50% {transform: rotateZ(40deg)}
+  100% {transform: rotateZ(5deg)}
+}
+
+
+@keyframes tiro {
+  0% {  transform: rotate(-5deg); top: -200px; left: -50px;}
+  50% {  top: -400px; right:  300px;}
+  100% {  top: -600px; right:  500px;}
 }
