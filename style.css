@@ -414,6 +414,7 @@ top: -350px;
   border-radius: 100%;
   top: -225px;
   left: -50px;
+  z-index: -3;
   /* left: 885px;
   top:-25px; */
   animation: tiro 6s linear 1.5s 1 forwards;
@@ -434,6 +435,20 @@ top: -350px;
 
 @keyframes tiro {
   0% {  transform: rotate(-5deg); top: -200px; left: -50px;}
-  50% {  top: -400px; right:  300px;}
-  100% {  top: -600px; right:  500px;}
+  5% { top: -300px; left: -100px;}
+  10% {top: -400px; left: -170px;}
+  20% {top: -500px; left: -220px;}
+  25% {top: -600px; left: -290px;}
+  30% {top: -650px; left: -340px;}
+  35% {top: -630px; left: -400px;}
+  40% {top: -615px; left: -480px;}
+  45% {top: -580px; left: -550px;}
+  50% {top: -550px; left: -600px;}
+  65% {top: -500px; left: -650px;}
+  70% {top: -460px; left: -700px;}
+  75% {top: -280px; left: -700px;}
+  80% {top: 10px; left: -700px;}
+  85% {top: -60px; left:-630px;}
+  90% {top: 13px; left: -590px;}
+  100% {top: 13px; left: -520px;}
 }
